@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <label for="name">Enter Your name</label>
+    <input type="text" id="name">
+
+    <label for="age">Enter Your age</label>
+    <input type="number" id="age">
+
+<button id="btn" type="button" onclick="submitInformation()">Submit</button>
+
+    <div id="out"> </div>
+    <div id="out1"> </div>
+
+    <form action="select">
+        <div>Whats you gender?</div>
+    
+        <label for="m">male</label>
+           <input type="radio" value="male" id="m" name="gender"> 
+        
+        <label for="f">female</label>
+            <input type="radio" value="female" id="f" name="gender"> 
+        </form>
+            <form action="select">
+            <label for="p">male</label>
+            <input type="radio" value="male" id="p" name="gender"> 
+         
+         <label for="q">female</label>
+             <input type="radio" value="female" id="q" name="gender"> 
+    </form>
+    <button id="btn" onclick="submitGender()" value="submit">submit</button>
+
+    <p id="output"></p>
+
+    <form>
+        <label for="options">
+            <select id = "options" >
+                <option value="Ugali" name="food">Ugali</option>
+                <option value=">Samaki" name = "food">Samaki</option>
+                <option value=">Kumbu" name = "food">Kumbu</option>
+            </select>
+        </label>
+        <input value="submit" type="button" id = "btn" onclick="selectFood()">
+    </form>
+    <p id="outpt"></p>
+    <script src="hale.js"></script>  
+</body>
+</html>
+</body>
+</html>

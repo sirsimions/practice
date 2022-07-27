@@ -1,0 +1,28 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: #54c7f9;
+    color: white;
+    font-weight: 700;
+    height: 10%;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+
+ @media (max-width: 1000px)
+ {
+    .navigation{
+        background-color: pink;
+        background-image: url("images/woman.png");
+               }
+}
+@media (orientation: portrait){
+    body{
+        background-color: yellow;
+    }
+    .navigation{
+      background-color: blueviolet;
+      color: black;
+    } 
+}
