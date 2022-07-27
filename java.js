@@ -7,7 +7,7 @@ function submitInformation(){
 
     let out1 = document.getElementById('out1');
     let out = document.getElementById('out');
-       if(age<=18){
+       if(age<=20){
         out1.innerHTML = "Your name is " + name + "";
         out.innerHTML = "Your age is " + age + "and you are a child";
        }
